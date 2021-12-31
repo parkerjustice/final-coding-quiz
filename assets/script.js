@@ -1,0 +1,12 @@
+let quizQuestions = document.getElementById('questions');
+let scoreContainer = document.getElementById('score');
+let startButton = document.getElementById('startButton');
+let resetButton = document.getElementById('reset-btn');
+let choices = document.getElementById('choices');
+let timerEl = document.getElementById("timer");
+let timerText = document.getElementById("timer-text");
+let timeLeft = 40;
+let correctAnswer = ['d', 'b', 'a', 'c'];
+let questionIndex = 0;
+let totalScore = 0;
+let timeInterval;
